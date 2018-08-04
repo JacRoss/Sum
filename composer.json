@@ -1,5 +1,12 @@
 {
-    "name": "jackross/sum",
-    "type": "library",
-    "require": {}
+  "name": "jackross/sum",
+  "type": "library",
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jackross\\": "src"
+    }
+  }
 }
